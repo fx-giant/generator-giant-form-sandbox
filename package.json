@@ -1,0 +1,50 @@
+{
+  "name": "generator-giant-form-sandbox",
+  "version": "0.1.0",
+  "description": "Giant's form sandbox for developing new form pack",
+  "homepage": "",
+  "author": {
+    "name": "Hans Yulian",
+    "email": "hansyulian@windowslive.com",
+    "url": "hansyulian.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "giant",
+    "giant-form",
+    "form",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.3",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "gulp-worker": "^0.8.2",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0",
+    "nsp": "^2.8.1",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.6.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^1.1.3",
+    "yosay": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {},
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "fx/generator-giant-form-sandbox"
+}

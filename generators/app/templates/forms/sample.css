@@ -1,0 +1,12 @@
+.sample-form .title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sample-form .description {
+    font-size: 18px;
+}
+
+.sample-form .form-id {
+    color: red;
+}
